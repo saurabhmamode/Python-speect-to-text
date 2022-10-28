@@ -1,0 +1,19 @@
+key=AIzaSyBiS1glB7cbUDpZDhbszp4uCaYwUnU7A4Q
+
+POST https://language.googleapis.com/v1/documents:analyzeEntities?key=AIzaSyBiS1glB7cbUDpZDhbszp4uCaYwUnU7A4Q
+
+curl -X POST \
+    -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+    -H "X-goog-api-key: AIzaSyBiS1glB7cbUDpZDhbszp4uCaYwUnU7A4Q" \
+    -H "Content-Type: application/json; charset=utf-8" \
+    -d @request.json \
+    "https://translation.googleapis.com/language/translate/v2"
+
+Wget -X POST \
+    -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+    -H "X-goog-api-key: AIzaSyBiS1glB7cbUDpZDhbszp4uCaYwUnU7A4Q" \
+    -H "Content-Type: application/json; charset=utf-8" \
+    -d @request.json \
+    "https://translation.googleapis.com/language/translate/v2"
+
+key = AIzaSyBiS1glB7cbUDpZDhbszp4uCaYwUnU7A4Q

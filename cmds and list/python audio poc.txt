@@ -1,0 +1,15 @@
+gs://cloud-samples-data/speech
+gsutil cp -r gs://cloud-samples-data/speech sampleaudio/
+
+ptest.py = Transcribe a streaming audio feed 
+ptest2.py = Transcribe streaming audio from a microphone 
+
+
+main.py = 
+main2.py = Asynchronously transcribe an audio file in Cloud Storage 
+main3.py = 
+main4.py = Transcribe a file in Cloud Storage using a transcription model (removed encoding)
+main5.py = Transcribe a file with word-level confidence (beta) (not working)
+
+ptest2.py = Synchronously transcribe a Cloud Storage file 
+ptest3.py = Synchronously transcribe a local file (not working)

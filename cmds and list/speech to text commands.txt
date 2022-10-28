@@ -1,0 +1,11 @@
+commands for speech to text demo -
+
+1) to set the env 
+
+conda activate python_3.7.9
+
+2) to set the credentials
+
+set GOOGLE_APPLICATION_CREDENTIALS=infra-devops-experiments-716e3c3a1ab2.json
+
+3) 
